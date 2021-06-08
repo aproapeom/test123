@@ -45,6 +45,6 @@ code {
 }
 
 .App ul li {
-  display: inline;
+  display: inline-block;
   padding: 5px;
 }
