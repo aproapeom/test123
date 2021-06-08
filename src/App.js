@@ -22,7 +22,7 @@ function App() {
   const isBoom = ((sum % 7 === 0) || (numbers[numbers.length - 1] % 10 === 7)) && sum !== 0
   console.log(isBoom)
   useEffect(() => {
-    isBoom ? document.title = 'Boom' : document.title = "Counting"
+    isBoom ? document.title = 'Boom!' : document.title = "Counting"
   });
 
   return (
